@@ -342,6 +342,9 @@ int main()
     Queen q;
     q.setColor(false);
 
+    delete ptr;
+    delete ptr1;
+
     return 0;
 }
 
